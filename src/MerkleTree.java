@@ -1,3 +1,6 @@
+import jdk.nashorn.internal.ir.Block;
+
+import java.security.Signature;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Base64;
@@ -105,5 +108,10 @@ public class MerkleTree {
 
         MerkleTree tree= new MerkleTree(transacations);
         System.out.println(tree.getRoot().getValue());
+
+        
+
+
+
     }
 }
